@@ -1,0 +1,31 @@
+.twitStream{
+	font-family: verdana;
+	font-size: 11px;
+	overflow:hidden;
+}
+.twitStream a{
+	font-family: verdana;
+	font-size: 11px;
+}
+#tweet2{
+	float: right;
+    margin-top: -50px;
+}
+.tweet{
+	display: block;
+	padding: .4em;
+	margin: .4em 0;
+}
+.tweet-left{
+	float: left;
+	margin-right: 1em;
+}
+.tweet-left img{
+	border: 1px solid #000000;
+	width:37px;
+	height:37px;
+}
+.tweet p.text{
+	margin: 0;
+	padding: 0;
+}

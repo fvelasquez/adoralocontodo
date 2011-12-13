@@ -1,0 +1,39 @@
+/* @override 
+	http://congresohechos29.org/reto/style.css
+	http://localhost/reto/style.css
+	http://adoralocontodo.com/reto29/style.css
+*/
+
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background: #090011 url(bgpage.jpg) no-repeat center top; margin: 0;
+}
+
+
+#table {
+	margin: 0 auto;
+}
+
+#video{
+	margin-top: 10px;
+}
+
+#logo{
+	position: absolute;
+}
+
+#buttons{
+	position: absolute;
+	margin-top: 200px;
+}
+
+#buttons li{
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+#share{
+
+}

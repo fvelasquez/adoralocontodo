@@ -1,0 +1,173 @@
+html,body,* 
+{
+	font-family: Helvetica, Arial, Verdana;
+	font-size: 1em;
+	margin:0;
+	padding:0;
+}
+body{ background: url(../images/bgpage.jpg) no-repeat top center #000000; background-attachment: fixed; }
+#container{ font-size:11px;}
+	#floatingmenu{
+		height:70px;
+		background: url(../images/menubg.png);
+		position:fixed;
+		float: left;
+		top:0;
+		width:100%;
+		z-index: 100;
+	}
+		#floatingmenu ul{
+			float:left;
+		}
+		#floatingmenu ul li{
+			display: inline;
+			float: left;
+		}
+		#floatingmenu ul li img{
+			vertical-align: middle
+		}
+		#floatingmenu ul li a{ color: white; text-decoration: none; font-weight: bold; }
+		#header { width: 960px; margin: 0 auto}
+		#logo{
+			width:150px;
+			float:left;
+		}
+		#tweetscroller div{
+			width:100px;
+			background-color:#e0e0e0;
+			float:left;
+			margin-left:5px;
+		}
+	#body{
+		padding-top:80px;
+		width:1024px;
+		margin:0 auto;
+		color:#a0a0a0;
+	}
+		#mediapane{
+			padding:10px;
+			width:800px;
+			background: url(../images/wrapbg.png);
+			float:right;
+		}
+		#socialpane{ 
+			width:190px;
+			min-height: 165px;
+			float:left;
+			background: #E8EAF1;
+			padding: 5px;
+			position: fixed;
+			top:290px;
+			border-radius: 10px;
+			-moz-border-radius: 10px;
+		}
+
+.row1{ height: 100px; float:left; background-color:#a0a0a0; }
+.row2{ height: 90px; float:left; background-color:#c0c0c0; }
+.clearfix { clear:both; }
+
+
+/* example styles */
+
+ul.thumb {
+	float: left;
+	list-style: none;
+	margin: 0; padding: 5px;
+	width: 800px;
+}
+ul.thumb li {
+	margin: 0 15px 15px 0;
+	float: left;
+	position: relative;  /* Set the absolute positioning base coordinate */
+	width: 145px;
+	height: 145px;
+}
+ul.thumb li a { color: #a0a0a0; text-decoration: none }
+ul.thumb li img.tumbimg {
+	width: 145px; height: 145px; /* Set the small thumbnail size */
+	-ms-interpolation-mode: bicubic; /* IE Fix for Bicubic Scaling */
+	background: #f0f0f0;
+	position: absolute;
+	left: 0; top: 0;
+	padding: 4px;
+}
+
+.tumbimgbig {
+	width: 305px; height: 305px; /* Set the small thumbnail size */
+	-ms-interpolation-mode: bicubic; /* IE Fix for Bicubic Scaling */
+	background: #f0f0f0;
+	position: absolute;
+	left: 0; top: 0;
+	padding: 4px;
+}
+
+ul.thumb li img.hover {
+	background:url(../thumb_bg.png) no-repeat center center;  /* Image used as background on hover effect*/
+	border: none; /* Get rid of border on hover */
+}
+
+.concursante {
+    float: right;
+    font-weight: bold;
+    margin-right: -8px;
+    padding: 5px;
+    position: relative;
+}
+
+#tweetficha {
+    border: 4px solid #202020;
+    background: url("../images/bird_16_blue.png") no-repeat scroll right bottom #202020;
+    float: left;
+    width: 145px; height: 145px;
+    position: relative;
+}
+	#tweetfichaheader { clear:both; background-color: #202020; padding: 0 0 4px 0;  }
+	
+	#tweetfichaimg { float:left; width:40px; height:40px; }
+	#tweetfichauser { float:left; width: 82px; font-weight: bold; padding: 0 0 0 5px; line-height: 35px}
+	#tweetfichatext { min-height: 84px; margin-top: 5px; padding: 3px;}
+	#tweetfichainfo 
+	{ 
+		background-color: #000000;
+	    display: none;
+		height: 70px;
+    	line-height: 15px;
+    	margin-left: 4px;
+    	margin-top: 78px;
+    	position: absolute;
+    	text-align: center;
+    	width: 145px;
+    	z-index: 11;
+		/*-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	opacity: 0.8;*/
+
+	}
+	.tfbiguser {
+    	clear: both;
+	    display: block;
+	    font-size: 28px;
+	    margin-bottom: 10px;
+	}
+	.tfbigtext {
+		font-size: 20px;
+		text-align: justify;
+	}
+	
+	.lastPostsLoader {
+		display: none;
+		position: absolute;
+		top:0;
+		left:400px;
+		z-index: 300;
+		background: url(../images/menubg.png);
+		text-align: center;
+		min-width: 300px;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		padding: 10px;
+		vertical-align: middle;
+		font-weight: bold;
+		font-size: 16px;
+		color: #e0e0e0;
+	}
